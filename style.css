@@ -191,9 +191,6 @@ a:hover {
 	padding-top: 0;
 	position: relative;
 }
-.work-timeline:last-child {
-	border-bottom-left-radius: 10px;
-}
 .timeline-header p{
 	font-size: 20px;
 	color: rgb(130, 130, 130);
