@@ -203,7 +203,7 @@ a:hover {
 	height: 25px;
 	border-radius: 50%;
 	background-color: rgb(20, 20, 20);
-	border: 2px solid rgb(130, 130, 130);
+	border: 1px solid rgb(130, 130, 130);
 	position: absolute;
 	left: -17.5px;
 	top: 0;
@@ -270,7 +270,7 @@ a:hover {
 		width: 90%;
 	}
 	.work-timeline {
-		border-left: 2px solid rgb(130, 130, 130);
+		border-left: 1px solid rgb(130, 130, 130);
 	}
 	.timeline-tracker{
 		width: 20px;
@@ -342,15 +342,15 @@ a:hover {
 }
 .contacts:nth-child(1) a:hover {
 	color: #3b5998;
-	text-shadow: 0 0 0.2px #3b5998, 0 0 0.4px #3b5998, 0 0 0.6px #3b5998;
+	text-shadow: 0 0 0.1px #3b5998, 0 0 0.1px #3b5998, 0 0 0.3px #3b5998;
 }
 .contacts:nth-child(2) a:hover {
 	color:  #00acee;
-	text-shadow: 0 0 0.2px #00acee, 0 0 0.4px #00acee, 0 0 0.6px #00acee;
+	text-shadow: 0 0 0.1px #00acee, 0 0 0.1px #00acee, 0 0 0.3px #00acee;
 }
 .contacts:nth-child(3) a:hover{
 	color:  rgb(245, 40, 40);
-	text-shadow: 0 0 0.2px rgb(245, 40, 40), 0 0 0.4px rgb(245, 40, 40), 0 0 0.6px rgb(245, 40, 40);
+	text-shadow: 0 0 0.1px rgb(245, 40, 40), 0 0 0.1px rgb(245, 40, 40), 0 0 0.3px rgb(245, 40, 40);
 }
 .copyright {
 	text-align: center;
