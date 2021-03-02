@@ -1,9 +1,14 @@
 * {
 	padding: 0;
 	margin: 0;
+	
+}
+html {
+	background: url(./images/bg.jpg);
+	background-position: center;
+	background-attachment: fixed;
 }
 body {
-	background-color: black;
 	max-width: 100%;
 	overflow-x: hidden;
 }
@@ -15,7 +20,6 @@ a:hover {
 	color: white;
 }
 .container {
-	background-color:black; 
 	color: white;
 	font-family: "Comfortaa",sans-serif;
 }
@@ -75,7 +79,7 @@ a:hover {
 	margin-top: calc(15vw + 70px);
 	width: 80%;
 	position: relative;
-	background-color: rgb(20, 20, 20);
+	background-color: rgba(20, 20, 20, 0.8);
 	border-radius: 30px;
 	position: relative;
 	padding: 15px;
