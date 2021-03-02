@@ -192,4 +192,15 @@
 		</div>
 	
 	</body>
+	<script>
+		document.addEventListener("scroll", () => {
+			if(document.body.scrollTop > 150  || document.documentElement.scrollTop > 150 ){
+				document.getElementsByClassName('nav')[0].style.opacity = '1';
+			} else {
+				document.getElementsByClassName('nav')[0].style.opacity = '0';
+			}
+		})
+		
+
+	</script>
 </html>
