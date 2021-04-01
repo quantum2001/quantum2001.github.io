@@ -3,13 +3,12 @@
   margin: 0;
 }
 html {
-  background: url(./images/bg.jpg);
-  background-position: center;
-  background-attachment: fixed;
+  background-color: black;
 }
 body {
   max-width: 100%;
   overflow-x: hidden;
+  font-family: "Comfortaa", sans-serif;
 }
 a {
   color: rgb(130, 130, 130);
@@ -20,7 +19,6 @@ a:hover {
 }
 .container {
   color: white;
-  font-family: "Comfortaa", sans-serif;
 }
 .nav {
   display: flex;
@@ -95,8 +93,8 @@ a:hover {
   height: 26vw;
   top: -13vw;
   left: calc((100% - 26vw) / 2);
+  background-image: url(./images/pass.jpg);
   border-radius: 50%;
-  background-image: url("./images/pass.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -376,6 +374,7 @@ a:hover {
   box-sizing: border-box;
   min-height: 100px;
   background-color: rgb(20, 20, 20);
+  color: white;
   margin-top: 30px;
   width: 100%;
 }
